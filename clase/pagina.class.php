@@ -475,7 +475,7 @@ class pagina
 	}
 	
 	function procesar_pagina($configuracion)
-	{
+	{	/*busqueda para verificar si el bloque pertenece a algun grupo*/
 		$this->cadena_sql="SELECT  ";
 		$this->cadena_sql.=$configuracion["prefijo"]."bloque.nombre ,";
 		$this->cadena_sql.=$configuracion["prefijo"]."bloque.grupo ";
