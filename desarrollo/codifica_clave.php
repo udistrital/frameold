@@ -26,7 +26,7 @@ $semilla="";
 
 echo "<br>CODIFICACION DE CLAVE<BR> ";
 $usuario='nomina';
-$pwd='nomina';		
+$pwd='gardel';		
                 
 echo "<br>usuario: ".$usuario." => ".$crypto->codificar_variable($usuario,  $semilla);
 echo "<br>clave: ".$pwd." => ".$crypto->codificar_variable($pwd,  $semilla);	
